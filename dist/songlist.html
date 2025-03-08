@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<body>
+    <h1>Add Song</h1>
+
+    <form id="addSong">
+        <input id="addSongName" type="text" placeholder="Insert song name">
+        <input id="addArtistName" type="text" placeholder="Insert artist name">
+        <input id="addSongYear" type="number" placeholder="Insert year the song released">
+        <input id="addRating" type="number" placeholder="Rate this song 1 - 5">
+        <button type="submit">Add Song</button>
+    </form>
+
+    <br><hr><br>
+
+    <h1>Delete Song</h1>
+
+    <form id="deleteSong">
+        <input id="deleteSongID" type="text" placeholder="Insert song id here">
+        <input type="submit" value="Remove Song">
+    </form>
+
+    <br><hr><br>
+
+    <h1>Song List</h1>
+
+    <form id="songList">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Artist</th>
+                    <th>Release Year</th>
+                    <th>Personal Rating</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+    </form>
+    <script src="songlist.bundle.js"></script>
+
+</body>

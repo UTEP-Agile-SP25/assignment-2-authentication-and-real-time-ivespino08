@@ -1,4 +1,4 @@
-import { createAccount, logOut, signIn } from "./auth"
+import { createAccount, logOut, signIn, onAuthStateChanged } from "./auth"
 
 
 const accountCreationForm = document.querySelector("#accountCreation")
